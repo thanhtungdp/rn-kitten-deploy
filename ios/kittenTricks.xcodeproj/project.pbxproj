@@ -19,11 +19,13 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		18165D7C46ED4165ABE7B8E2 /* fontawesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03CB2451DA5346E2BC2CE192 /* fontawesome.ttf */; };
+		1CBBDFD6F91F491589A154DE /* libAppCenterReactNativePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A5895BEE8B4BF781E778E7 /* libAppCenterReactNativePush.a */; };
 		3B8DB7E06BB0437B9840E89A /* libRCTGoogleAnalyticsBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A78E145B445401A8C76FFAA /* libRCTGoogleAnalyticsBridge.a */; };
 		55ECA45485394103A71F8065 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF77D65276B345558FA01DF3 /* Roboto-Medium.ttf */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		626D9749BDC742C78AD48CDC /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15DC83E736634D0A973D2FAC /* Roboto-Regular.ttf */; };
 		62EBEDDE41274F7F913FC0EE /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF3C2F04A11B4235B5E4C91C /* icomoon.ttf */; };
+		78DB9A73ED93D22C7E6FFAD8 /* libPods-kittenTricks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFB6EE2DF7D47133C6547D5 /* libPods-kittenTricks.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		9F1F4975D4C74CC8B77318DF /* libRealmReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A889C6AB253422D9E0743EF /* libRealmReact.a */; };
 		9F88107143F445579359A95C /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A33986B9F5E436BBF57D6CC /* Roboto-Light.ttf */; };
@@ -37,7 +39,11 @@
 		AE7B52F4A2534FDE808E7279 /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E39931D467F462AA8F3A0F9 /* libRNSVG.a */; };
 		D986882F55454954847CD201 /* Righteous-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE05BF1396DE44208CB86D27 /* Righteous-Regular.ttf */; };
 		EB9CA6C6A13C4BE3B5DB4012 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B92D61D83B784B68B8E942FE /* libc++.tbd */; };
+		ED5244545AF0474BBBAB58A3 /* libAppCenterReactNativeAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA3D6A462DD437784762044 /* libAppCenterReactNativeAnalytics.a */; };
+		F08FE23936F9415186A408D4 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E986D5345684B2298A2B260 /* AppCenter-Config.plist */; };
+		F432E745AE904EFEB1EDDDB8 /* libAppCenterReactNativeCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 252D0EE852EA4C329A59042F /* libAppCenterReactNativeCrashes.a */; };
 		F9B401A2CAE74266831C6A12 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0C3BF3122D04DC7AC90E68E /* Roboto-Bold.ttf */; };
+		FA17BB97CBCC45B2B3208DDF /* libAppCenterReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5402CDEB42A6400C971DDB15 /* libAppCenterReactNative.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +130,41 @@
 			proxyType = 2;
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RCTAnimation;
+		};
+		61F22E831FCBDA14000B4582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEA7332D7BE49E0B5C03C88 /* AppCenterReactNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C35AEC211EF91F9300931F0C;
+			remoteInfo = AppCenterReactNative;
+		};
+		61F22E861FCBDA14000B4582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368BC584C3F149939CB58D88 /* AppCenterReactNativeAnalytics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 548694001D8384E600E6685A;
+			remoteInfo = AppCenterReactNativeAnalytics;
+		};
+		61F22E891FCBDA14000B4582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7115D1627DF64579A9E0D3B3 /* AppCenterReactNativePush.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA189FAA1EEE74F100CAD13F;
+			remoteInfo = AppCenterReactNativePush;
+		};
+		61F22E8D1FCBDA14000B4582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC252331EB328000080D1AC /* BVLinearGradient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64AA15081EF7F30100718508;
+			remoteInfo = "BVLinearGradient-tvOS";
+		};
+		61F22EB21FCBDA15000B4582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB1E6D1EE48B4852B29FB78D /* AppCenterReactNativeCrashes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5419C2701D824AA700DDF3A1;
+			remoteInfo = AppCenterReactNativeCrashes;
 		};
 		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -294,14 +335,22 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = kittenTricks/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		15DC83E736634D0A973D2FAC /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../app/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		252D0EE852EA4C329A59042F /* libAppCenterReactNativeCrashes.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeCrashes.a; sourceTree = "<group>"; };
+		368BC584C3F149939CB58D88 /* AppCenterReactNativeAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeAnalytics.xcodeproj; path = "../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics.xcodeproj"; sourceTree = "<group>"; };
 		4A78E145B445401A8C76FFAA /* libRCTGoogleAnalyticsBridge.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTGoogleAnalyticsBridge.a; sourceTree = "<group>"; };
 		4C8D20F3EECD443A918F38B6 /* RealmReact.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RealmReact.xcodeproj; path = "../node_modules/realm/react-native/ios/RealmReact.xcodeproj"; sourceTree = "<group>"; };
+		5402CDEB42A6400C971DDB15 /* libAppCenterReactNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNative.a; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		5FA3D6A462DD437784762044 /* libAppCenterReactNativeAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeAnalytics.a; sourceTree = "<group>"; };
+		61F22EB41FCBDA83000B4582 /* kittenTricks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = kittenTricks.entitlements; path = kittenTricks/kittenTricks.entitlements; sourceTree = "<group>"; };
+		7115D1627DF64579A9E0D3B3 /* AppCenterReactNativePush.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativePush.xcodeproj; path = "../node_modules/appcenter-push/ios/AppCenterReactNativePush.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8E39931D467F462AA8F3A0F9 /* libRNSVG.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSVG.a; sourceTree = "<group>"; };
+		8E986D5345684B2298A2B260 /* AppCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "kittenTricks/AppCenter-Config.plist"; sourceTree = "<group>"; };
 		93A86101911B4FB59AEE7240 /* RNSVG.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNSVG.xcodeproj; path = "../node_modules/react-native-svg/ios/RNSVG.xcodeproj"; sourceTree = "<group>"; };
 		9A33986B9F5E436BBF57D6CC /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../app/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		9BFB6EE2DF7D47133C6547D5 /* libPods-kittenTricks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kittenTricks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA429D721EEEA09F00A8EAA3 /* RCTGoogleAnalyticsBridge.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGoogleAnalyticsBridge.xcodeproj; path = "../node_modules/react-native-google-analytics-bridge/ios/RCTGoogleAnalyticsBridge/RCTGoogleAnalyticsBridge.xcodeproj"; sourceTree = "<group>"; };
 		AA429D781EEEA1AB00A8EAA3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AA429D7A1EEEA1B400A8EAA3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -310,10 +359,15 @@
 		AAC252331EB328000080D1AC /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
 		B92D61D83B784B68B8E942FE /* libc++.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		BE05BF1396DE44208CB86D27 /* Righteous-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Righteous-Regular.ttf"; path = "../app/assets/fonts/Righteous-Regular.ttf"; sourceTree = "<group>"; };
+		C295CEF257C1D19B16E81ED6 /* Pods-kittenTricks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kittenTricks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kittenTricks/Pods-kittenTricks.debug.xcconfig"; sourceTree = "<group>"; };
+		C7A5895BEE8B4BF781E778E7 /* libAppCenterReactNativePush.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativePush.a; sourceTree = "<group>"; };
 		D0C3BF3122D04DC7AC90E68E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../app/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		DCEA7332D7BE49E0B5C03C88 /* AppCenterReactNative.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNative.xcodeproj; path = ../node_modules/appcenter/ios/AppCenterReactNative.xcodeproj; sourceTree = "<group>"; };
 		DF3C2F04A11B4235B5E4C91C /* icomoon.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = icomoon.ttf; path = ../app/assets/fonts/icomoon.ttf; sourceTree = "<group>"; };
+		EB1E6D1EE48B4852B29FB78D /* AppCenterReactNativeCrashes.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeCrashes.xcodeproj; path = "../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes.xcodeproj"; sourceTree = "<group>"; };
 		EF77D65276B345558FA01DF3 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../app/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		F89BF2E4EABD4AC690FE95AF /* RCTGoogleAnalyticsBridge.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTGoogleAnalyticsBridge.xcodeproj; path = "../node_modules/react-native-google-analytics-bridge/ios/RCTGoogleAnalyticsBridge/RCTGoogleAnalyticsBridge.xcodeproj"; sourceTree = "<group>"; };
+		FADCB31AB0DB7DF56FEEC7F6 /* Pods-kittenTricks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kittenTricks.release.xcconfig"; path = "Pods/Target Support Files/Pods-kittenTricks/Pods-kittenTricks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -341,6 +395,11 @@
 				3B8DB7E06BB0437B9840E89A /* libRCTGoogleAnalyticsBridge.a in Frameworks */,
 				9F1F4975D4C74CC8B77318DF /* libRealmReact.a in Frameworks */,
 				EB9CA6C6A13C4BE3B5DB4012 /* libc++.tbd in Frameworks */,
+				FA17BB97CBCC45B2B3208DDF /* libAppCenterReactNative.a in Frameworks */,
+				78DB9A73ED93D22C7E6FFAD8 /* libPods-kittenTricks.a in Frameworks */,
+				ED5244545AF0474BBBAB58A3 /* libAppCenterReactNativeAnalytics.a in Frameworks */,
+				F432E745AE904EFEB1EDDDB8 /* libAppCenterReactNativeCrashes.a in Frameworks */,
+				1CBBDFD6F91F491589A154DE /* libAppCenterReactNativePush.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +469,7 @@
 		13B07FAE1A68108700A75B9A /* kittenTricks */ = {
 			isa = PBXGroup;
 			children = (
+				61F22EB41FCBDA83000B4582 /* kittenTricks.entitlements */,
 				AA429D721EEEA09F00A8EAA3 /* RCTGoogleAnalyticsBridge.xcodeproj */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -453,6 +513,15 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		2D04383C7ECFE2F8911F639D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C295CEF257C1D19B16E81ED6 /* Pods-kittenTricks.debug.xcconfig */,
+				FADCB31AB0DB7DF56FEEC7F6 /* Pods-kittenTricks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3CC98A884A0961297B541BB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -461,6 +530,7 @@
 				AA429D7A1EEEA1B400A8EAA3 /* SystemConfiguration.framework */,
 				AA429D781EEEA1AB00A8EAA3 /* CoreData.framework */,
 				B92D61D83B784B68B8E942FE /* libc++.tbd */,
+				9BFB6EE2DF7D47133C6547D5 /* libPods-kittenTricks.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -469,7 +539,39 @@
 			isa = PBXGroup;
 			children = (
 				5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */,
-				AA4671DC1EEE6DDF00100229 /* libRCTAnimation-tvOS.a */,
+				AA4671DC1EEE6DDF00100229 /* libRCTAnimation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61F22E7C1FCBDA14000B4582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F22E8A1FCBDA14000B4582 /* libAppCenterReactNativePush.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61F22E7E1FCBDA14000B4582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F22E841FCBDA14000B4582 /* libAppCenterReactNative.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61F22E801FCBDA14000B4582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F22E871FCBDA14000B4582 /* libAppCenterReactNativeAnalytics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61F22EAF1FCBDA15000B4582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F22EB31FCBDA15000B4582 /* libAppCenterReactNativeCrashes.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -501,6 +603,10 @@
 				93A86101911B4FB59AEE7240 /* RNSVG.xcodeproj */,
 				F89BF2E4EABD4AC690FE95AF /* RCTGoogleAnalyticsBridge.xcodeproj */,
 				4C8D20F3EECD443A918F38B6 /* RealmReact.xcodeproj */,
+				DCEA7332D7BE49E0B5C03C88 /* AppCenterReactNative.xcodeproj */,
+				368BC584C3F149939CB58D88 /* AppCenterReactNativeAnalytics.xcodeproj */,
+				EB1E6D1EE48B4852B29FB78D /* AppCenterReactNativeCrashes.xcodeproj */,
+				7115D1627DF64579A9E0D3B3 /* AppCenterReactNativePush.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -522,6 +628,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				267D05B5106C4039A5D1510D /* Resources */,
 				3CC98A884A0961297B541BB2 /* Frameworks */,
+				8E986D5345684B2298A2B260 /* AppCenter-Config.plist */,
+				2D04383C7ECFE2F8911F639D /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -572,6 +680,7 @@
 			isa = PBXGroup;
 			children = (
 				AAC252381EB328000080D1AC /* libBVLinearGradient.a */,
+				61F22E8E1FCBDA14000B4582 /* libBVLinearGradient.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -583,10 +692,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "kittenTricks" */;
 			buildPhases = (
+				5281135533423347F6D3A6BA /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				3CC1CFAB3918152CE3A36136 /* [CP] Embed Pods Frameworks */,
+				70DD65F42C0EC331C7E09F22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -607,8 +719,16 @@
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = P48M49RUTP;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 82XL3D3M32;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -624,6 +744,22 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 61F22E7E1FCBDA14000B4582 /* Products */;
+					ProjectRef = DCEA7332D7BE49E0B5C03C88 /* AppCenterReactNative.xcodeproj */;
+				},
+				{
+					ProductGroup = 61F22E801FCBDA14000B4582 /* Products */;
+					ProjectRef = 368BC584C3F149939CB58D88 /* AppCenterReactNativeAnalytics.xcodeproj */;
+				},
+				{
+					ProductGroup = 61F22EAF1FCBDA15000B4582 /* Products */;
+					ProjectRef = EB1E6D1EE48B4852B29FB78D /* AppCenterReactNativeCrashes.xcodeproj */;
+				},
+				{
+					ProductGroup = 61F22E7C1FCBDA14000B4582 /* Products */;
+					ProjectRef = 7115D1627DF64579A9E0D3B3 /* AppCenterReactNativePush.xcodeproj */;
+				},
 				{
 					ProductGroup = AAC252341EB328000080D1AC /* Products */;
 					ProjectRef = AAC252331EB328000080D1AC /* BVLinearGradient.xcodeproj */;
@@ -781,6 +917,41 @@
 			remoteRef = 5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		61F22E841FCBDA14000B4582 /* libAppCenterReactNative.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNative.a;
+			remoteRef = 61F22E831FCBDA14000B4582 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61F22E871FCBDA14000B4582 /* libAppCenterReactNativeAnalytics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNativeAnalytics.a;
+			remoteRef = 61F22E861FCBDA14000B4582 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61F22E8A1FCBDA14000B4582 /* libAppCenterReactNativePush.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNativePush.a;
+			remoteRef = 61F22E891FCBDA14000B4582 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61F22E8E1FCBDA14000B4582 /* libBVLinearGradient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBVLinearGradient.a;
+			remoteRef = 61F22E8D1FCBDA14000B4582 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		61F22EB31FCBDA15000B4582 /* libAppCenterReactNativeCrashes.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNativeCrashes.a;
+			remoteRef = 61F22EB21FCBDA15000B4582 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -830,7 +1001,7 @@
 			remoteRef = AA429D761EEEA09F00A8EAA3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		AA4671DC1EEE6DDF00100229 /* libRCTAnimation-tvOS.a */ = {
+		AA4671DC1EEE6DDF00100229 /* libRCTAnimation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRCTAnimation.a;
@@ -944,6 +1115,7 @@
 				626D9749BDC742C78AD48CDC /* Roboto-Regular.ttf in Resources */,
 				18165D7C46ED4165ABE7B8E2 /* fontawesome.ttf in Resources */,
 				D986882F55454954847CD201 /* Righteous-Regular.ttf in Resources */,
+				F08FE23936F9415186A408D4 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -963,6 +1135,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		3CC1CFAB3918152CE3A36136 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kittenTricks/Pods-kittenTricks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5281135533423347F6D3A6BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kittenTricks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70DD65F42C0EC331C7E09F22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kittenTricks/Pods-kittenTricks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -993,25 +1213,36 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C295CEF257C1D19B16E81ED6 /* Pods-kittenTricks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = kittenTricks/kittenTricks.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = P48M49RUTP;
+				DEVELOPMENT_TEAM = 82XL3D3M32;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../node_modules/react-native-google-analytics-bridge/ios/RCTGoogleAnalyticsBridge/**\"",
 					"$(SRCROOT)/../node_modules/realm/src/**",
 					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/appcenter-push/ios/AppCenterReactNativePush",
 				);
 				"HEADER_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				INFOPLIST_FILE = kittenTricks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/kittenTricks\"",
+					"\"$(SRCROOT)/kittenTricks\"",
+					"\"$(SRCROOT)/kittenTricks\"",
+					"\"$(SRCROOT)/kittenTricks\"",
 					"\"$(SRCROOT)/kittenTricks\"",
 					"\"$(SRCROOT)/kittenTricks\"",
 					"\"$(SRCROOT)/kittenTricks\"",
@@ -1028,10 +1259,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.akveo.kittentricks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tungtung.kitten;
 				PRODUCT_NAME = kittenTricks;
-				PROVISIONING_PROFILE = "b9879fc2-e7c4-47c9-97db-35a91901d0b1";
-				PROVISIONING_PROFILE_SPECIFIER = "Kitten Tricks Provisioning";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1039,23 +1270,34 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FADCB31AB0DB7DF56FEEC7F6 /* Pods-kittenTricks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = kittenTricks/kittenTricks.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P48M49RUTP;
+				DEVELOPMENT_TEAM = 82XL3D3M32;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../node_modules/react-native-google-analytics-bridge/ios/RCTGoogleAnalyticsBridge/**\"",
 					"$(SRCROOT)/../node_modules/realm/src/**",
 					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/appcenter-push/ios/AppCenterReactNativePush",
 				);
 				INFOPLIST_FILE = kittenTricks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/kittenTricks\"",
+					"\"$(SRCROOT)/kittenTricks\"",
+					"\"$(SRCROOT)/kittenTricks\"",
+					"\"$(SRCROOT)/kittenTricks\"",
 					"\"$(SRCROOT)/kittenTricks\"",
 					"\"$(SRCROOT)/kittenTricks\"",
 					"\"$(SRCROOT)/kittenTricks\"",
@@ -1066,10 +1308,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.akveo.kittentricks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tungtung.kitten;
 				PRODUCT_NAME = kittenTricks;
-				PROVISIONING_PROFILE = "9bffb4e8-468b-4197-bfa4-4b6242a2a230";
-				PROVISIONING_PROFILE_SPECIFIER = KittenTricksAddHoc;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
